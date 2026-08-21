@@ -1,4 +1,4 @@
-FROM caddy:2.8-alpine
+FROM caddy:2.10-alpine
 
 COPY docker/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
